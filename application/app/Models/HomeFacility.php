@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+
+class HomeFacility extends Model
+{
+    protected $table = "home_facility";
+
+    protected $guarded = [];
+
+
+
+}

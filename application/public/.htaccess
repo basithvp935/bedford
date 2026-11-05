@@ -1,0 +1,68 @@
+<IfModule mod_rewrite.c>
+
+    <IfModule mod_negotiation.c>
+
+        Options -MultiViews -Indexes
+
+    </IfModule>
+
+
+
+    # Prevent Direct Access to Protected Files
+
+    <FilesMatch "(?i)(^artisan$|\.env|\.log|\.sql|\.csv)">
+
+        Order deny,allow
+
+        Deny from all
+
+    </FilesMatch>
+
+
+
+    RewriteEngine On
+
+
+
+    # Handle Authorization Header
+
+    RewriteCond %{HTTP:Authorization} .
+
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+
+
+    # Redirect Trailing Slashes If Not A Folder...
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond %{REQUEST_URI} (.+)/$
+
+    RewriteRule ^ %1 [L,R=301]
+
+
+
+    # Handle Front Controller...
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^ index.php [L]
+
+
+
+    <FilesMatch "\.(js|css|png|jpg|jpeg|ttf|woff2|woff|eot)$">
+
+        <IfModule mod_headers.c>
+
+            Header set Access-Control-Allow-Origin "*"
+
+            Header set Access-Control-Allow-Credentials true
+
+        </IfModule>
+
+    </FilesMatch>
+
+</IfModule>
+

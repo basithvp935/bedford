@@ -1,0 +1,157 @@
+[02-May-2023 11:41:27 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.0.33. in /home/jamsheer/public_html/isg/application/vendor/composer/platform_check.php on line 24
+[24-Dec-2023 08:10:51 asia/kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Front\HomeController::founder() in /home/faaurlvr5uz5/public_html/isgiDemo/application/app/Http/Controllers/Front/HomeController.php on line 568
+[30-Dec-2023 04:06:22 UTC] PHP Warning:  include(/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 04:06:22 UTC] PHP Warning:  include(): Failed opening '/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 04:06:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[30-Dec-2023 04:06:31 UTC] PHP Warning:  include(/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 04:06:31 UTC] PHP Warning:  include(): Failed opening '/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 04:06:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[30-Dec-2023 06:34:29 UTC] PHP Warning:  include(/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:34:29 UTC] PHP Warning:  include(): Failed opening '/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:34:29 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[30-Dec-2023 06:45:26 UTC] PHP Warning:  include(/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:45:26 UTC] PHP Warning:  include(): Failed opening '/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:45:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[30-Dec-2023 06:45:39 UTC] PHP Warning:  include(/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:45:39 UTC] PHP Warning:  include(): Failed opening '/home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/composer/ClassLoader.php on line 582
+[30-Dec-2023 06:45:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/faaurlvr5uz5/public_html/isgiDemo/index.php(57): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/faaurlvr5uz5/public_html/isgiDemo/application/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[19-Jan-2024 15:55:03 UTC] PHP Warning:  require(/home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/autoload.php): failed to open stream: No such file or directory in /home/vsau8apgy9lt/public_html/isgioman.com/index.php on line 24
+[19-Jan-2024 15:55:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vsau8apgy9lt/public_html/isgioman.com/index.php on line 24
+[19-Jan-2024 16:02:02 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[19-Jan-2024 16:02:12 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[19-Jan-2024 16:02:17 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[19-Jan-2024 17:00:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[19-Jan-2024 17:10:28 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[19-Jan-2024 17:22:07 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 5.6.40. in /home/vsau8apgy9lt/public_html/isgioman.com/application/vendor/composer/platform_check.php on line 25
+[20-Jun-2025 09:12:10 asia/qatar] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Front\HomeController::career() in /home1/credohdq/public_html/dayapuram-school/application/app/Http/Controllers/Front/HomeController.php on line 803
+[24-Jun-2025 11:29:12 asia/qatar] PHP Fatal error:  Cannot declare class App\Models\Facility, because the name is already in use in /home1/credohdq/public_html/dayapuram-school/application/app/Models/DigitalFestival.php on line 5
